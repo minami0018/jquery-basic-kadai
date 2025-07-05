@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazuki Asahinaの自己紹介と趣味のカメラで撮影した写真を掲載しているサイトです。">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<!-- jQuery -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+   </head>
+  
+  <body>
+    <header>
+    <div class="header-inner">
+      <h1>
+        <a href="index.html" class="home">MyProfile</a>
+      </h1>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Works">Works</a></li>
+        </ul>
+      </nav>
+      </div>
+      </header>
+
+<main> 
+    <article>
+      <!-- メイン画像 -->
+      <div>
+        <ul class="slider">
+          
+        <img src="images/main.png" alt="カメラ" class="mainpic">
+        <img src="images/main2.png" alt="機材一式" class="main2pic">
+        <img src="images/main3.png" alt="景色" class="main3pic">
+        </ul>
+      </div>
+
+<!-- about -->
+    <section class="about">
+      <h2 id="about">About</h2>
+      <div class="about-inner">
+        <img src="images/about.png" alt="Kazuki Asahina" class="circle">
+        <div class="content">
+          <p class="name">Kazuki Asahina</p>
+          <ul>
+            <li>25歳 長野県佐久市出身</li>
+            <li>ソフトウェア業界でマーケティングに従事</li>
+            <li>趣味はカメラ、愛機はCanon</li>
+            <li>自然を撮影するのが好きで、海や山によく行く</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+<!-- Works -->
+   <section class="Works">
+      <h2 id="Works">Works</h2>
+      <div class="Works-inner">
+        <div class="item">
+         <img src="images/work1.png" alt="日本海">
+          <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+        </div>
+        <div class="item">
+          <img src="images/work2.png" alt="冠雪した御嶽山">
+          <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+        </div>
+        <div class="item">
+          <img src="images/work3.png" alt="京都の街並み">
+          <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+        </div>
+      </div>
+   </section>
+</article>
+</main>
+<!-- footer -->
+   <footer>
+      <p>&copy;MyProfile.All rights reserved. </p>      
+   </footer>
+
+   <a href="#" id="page-top">TOP</a>
+
+   <div class="modal">
+    <img src alt class="big-img">
+    <span class="close-bnt>">✖︎</span>
+   </div>
+
+   <!-- jQueryをCDN経由で読み込む -->
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <!-- slickをCDN経由で読み込む -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <!-- JSファイルを読み込む-->
+   <script src="js/script.js"></script>
+  </body>
+
+</html>
