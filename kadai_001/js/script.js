@@ -57,7 +57,7 @@ $(function () {
   });
 
   // Worksの画像をクリックしたとき拡大表示
-  $('.works img').click(function () {
+  $('.Works img').click(function () {
     const imgSrc = $(this).attr('src');
     const imgAlt = $(this).attr('alt');
     $('.big-img').attr({
